@@ -16,3 +16,6 @@ I gathered my data from Kaggle, and from searching different websites for data r
 * Airbnb Data from [Kaggle](https://www.kaggle.com/airbnb/seattle)
 * Seattle Police Department from [Kaggle](https://www.kaggle.com/sohier/seattle-police-department-911-incident-response#Seattle_Police_Department_911_Incident_Response.csv)
 * Pronto Cycle Share Data from [Kaggle](https://www.kaggle.com/pronto/cycle-share-dataset)
+
+
+<center><html src='Maps/layer_heat_map.html'>
