@@ -24,7 +24,7 @@ While my initial goals for this project were reaching for the stars a bit, they 
 
 While this did not come to fruition as originally imagined, I was still intrigued to have learned about the different areas that were hotspots for [Crime](<img src=http://localhost:8888/view/Module05/capstone/dsc-5-capstone-project-online-ds-ft-100118/Maps/final_crime.html>), Airbnb rentals, and cycle share locations.
 
-<center><img src='final_crime.png' width="200" height="200">
+<center><img src='Images/final_crime.png' width="200" height="200">
 
 
 
