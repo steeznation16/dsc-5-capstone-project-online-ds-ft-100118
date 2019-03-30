@@ -38,7 +38,7 @@ A lot of the visualizations in this project revolved around Folium and plotting 
 ## Sentiment Analysis on Airbnb Reviews:
 One challenge I really looked to try and tackle with this project was the idea of analyzing the text in reviews, and I fortunately was able to find a library build into the Natural Language Tool Kit that allows [Sentiment Analysis](https://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) on the text.  Using this, the Vader Polarity gives a value from negative to positive one from most negative to most positive text.  Each review could then be assessed a polarity value that could be plotted (see below).
 
-<center><img src='Images/polarity_hist.png' width="500" height="300">
+<center><img src='Images/polarity_hist.png' width="400" height="300">
 
 <center><img src='Images/polarity_violin.png' width="400" height="300">
         
