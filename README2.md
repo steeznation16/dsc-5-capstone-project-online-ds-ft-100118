@@ -30,13 +30,16 @@ While this did not come to fruition as originally imagined, I was still intrigue
 #### Folium:
 A lot of the visualizations in this project revolved around Folium and plotting points geographically on a map.  While the use of Folium can be slow to render and difficult to work with at times, the results are fantastic in the ability to plot points and see geographically where locations lie relative to each other.  There are also great ways to add different layers in order to toggle between certain data or certain ways of identifying such data on the map.
 
-<center><img src/'Map/layer_heat_map.html'>
-    
+<center><img src='Map/layer_heat_map.html'>
+
 
 
 #### 
 
+## Sentiment Analysis on Airbnb Reviews:
+One challenge I really looked to try and tackle with this project was the idea of analyzing the text in reviews, and I fortunately was able to find a library build into the Natural Language Tool Kit that allows [Sentiment Analysis](https://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) on the text.  Using this, the Vader Polarity gives a value from negative to positive one from most negative to most positive text.  Each review could then be assessed a polarity value that could be plotted (see below).
 
+<center><img src='polarity_hist.png'>
 
 ## Machine Learning Model:
 
