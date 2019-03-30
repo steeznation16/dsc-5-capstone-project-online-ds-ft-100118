@@ -17,14 +17,14 @@ I gathered my data from Kaggle, and from searching different websites for data r
 * Seattle Police Department from [Kaggle](https://www.kaggle.com/sohier/seattle-police-department-911-incident-response#Seattle_Police_Department_911_Incident_Response.csv)
 * Pronto Cycle Share Data from [Kaggle](https://www.kaggle.com/pronto/cycle-share-dataset)
 
-![](final_crime.png=300x300)
+
 
 ## Initial Thoughts:
 While my initial goals for this project were reaching for the stars a bit, they were well-founded, albeit turned out to be much more difficult than initially anticipated.  My original goals for a final project were to have a dashboard where someone could see pricing of housing markets, as well as overall citizen/customer sentiment geared towards Airbnb and Criminal activity in seattle.  The goal was also to be able to relate cycle sharing trips to Airbnb and crime data, as today's society has grown more accustomed to using ride sharing companies, as well as cycle sharing and other forms of public transportation, especially in heavily populated cities such as Seattle.  While these are useful for those who work in the city and commute often, for those who live in the city, it is also a necessity in order to get around without personal transportation in the tight city streets.  If this data can be used in order to assist someone in their search of a new home or apartment, as well as perhaps for some to consider future markets for real estate development for new apartment complexes, or areas in need of better office parks.
 
 While this did not come to fruition as originally imagined, I was still intrigued to have learned about the different areas that were hotspots for [Crime](<img src=http://localhost:8888/view/Module05/capstone/dsc-5-capstone-project-online-ds-ft-100118/Maps/final_crime.html>), Airbnb rentals, and cycle share locations.
 
-<center><img src='final_crime.png'>
+<center><img src='final_crime.png' width="200" height="200">
 
 
 
