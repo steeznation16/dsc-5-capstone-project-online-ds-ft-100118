@@ -33,9 +33,6 @@ A lot of the visualizations in this project revolved around Folium and plotting 
 <center><img src='Map/layer_heat_map.html'>
 
 
-
-#### 
-
 ## Sentiment Analysis on Airbnb Reviews:
 One challenge I really looked to try and tackle with this project was the idea of analyzing the text in reviews, and I fortunately was able to find a library build into the Natural Language Tool Kit that allows [Sentiment Analysis](https://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) on the text.  Using this, the Vader Polarity gives a value from negative to positive one from most negative to most positive text.  Each review could then be assessed a polarity value that could be plotted (see below).
 
@@ -53,7 +50,13 @@ So ratings were high, as was sentiment analysis, so they certainly go hand in ha
 
 
 ## Machine Learning Model:
+Starting with a very basic model, I realized that there was going to be good results for any test because there were very few features in the model, and the features that were there were using polarity and the score rated by the reviewer in order to determine the target score, thus heavily influencing the model's accuracy.  As shown below, the initial feature importances were extremely biased, and the correlation matrix shows similar results.
 
+<center><img src='heatmap_corr_1.png'>
+
+<center><img src='feat_imp_1.png'>
+
+From there, I decided to go back to the listings page that had information for each individual listing posted for Airbnb, rather than the reviews for each location.  While this drastically reduced the number of data points available, it also expanded the number of features in the testing.  I also took the average of the polarity, review score, and combined score in order to have a good benchmark to compare each location, as well as to have a target score.  By adding a greater number of features, the accuracy dropped in later models, but with improved tuning gradually was able to increase the accuracy of predicting a good or a bad rating, as well as what the important pieces were for each Airbnb rental.
 
 
 
