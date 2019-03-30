@@ -60,6 +60,23 @@ Starting with a very basic model, I realized that there was going to be good res
 
 From there, I decided to go back to the listings page that had information for each individual listing posted for Airbnb, rather than the reviews for each location.  While this drastically reduced the number of data points available, it also expanded the number of features in the testing.  I also took the average of the polarity, review score, and combined score in order to have a good benchmark to compare each location, as well as to have a target score.  By adding a greater number of features, the accuracy dropped in later models, but with improved tuning gradually was able to increase the accuracy of predicting a good or a bad rating, as well as what the important pieces were for each Airbnb rental.
 
+With the new information, the following models were run and resulted with:
+* Decision Tree Classifier:
+    * Accuracy: 77.17%
+    * Recall: 73.48%
+* Random Forest Classifier:
+    * Accuracy: 77.70%
+    * Recall: 73.26%
+* AdaBoost Classifier:
+    * Accuracy: 82.20%
+    * Recall: 87.64%
+* Gradient Boosting Classifier:
+    * Accuracy: 82.51%
+    * Recall: 87.42%
+
+**The confusion matrices for each model are shown here:**
+
+<center><img src='Images/decision_matrices.png'>
 
 
 ### Next Steps:
