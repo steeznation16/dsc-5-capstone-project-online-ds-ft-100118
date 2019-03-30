@@ -80,6 +80,15 @@ With the new information, the following models were run and resulted with:
 
 
 ### Next Steps:
+While this was enlightening, the main goal behind this project was to produce a product that a consumer would be interested in using for determining the best location to purchase or rent a property for business or personal use.  The next steps for this project will be to produce a dashboard that functions easily and can be operated with little knowledge about the code behind it, and will help provide useful insights into the Seattle, Washington market.
 
+On top of producing a dashboard, adding more information to this project would also be useful.  Data from a ride sharing company such as Uber or Lyft would provide great insight, and coupled with the Pronto Cycle Sharing Data, it could be useful to consumers.
+
+Other visualizations that would be helpful would be to create time sliding maps in order to show areas of heaviest volume such as traffic, Airbnb rentals, Cycle Sharing usage, etc.  This would be useful with a long enough history of data, that a consumer could determine when the best days or times would be to either rent an Airbnb, get a cheaper rate on a ride share or cycle share, or potentially avoid high crime areas at certain times of the day/week/year.
 
 #### Credits:
+* I owe tons of credit to [Rafael Carrasco] who was a fantastic instructor during my time learning at the Flatiron School.  I would not have the depth of knowledge or creativity to solve problems if not for him.
+
+* I also owe credit to [Tana Glenn] for keeping me on task while studying with the Flatiron School.  Meeting every other week and reminding me to keep up the pace was extremely helpful during my most difficult moments during the course.
+
+* I also need to thank the rest of the October, 2018 Cohort.  As the first [Full Time Online Data Science](https://flatironschool.com/career-courses/data-science-bootcamp/online/) cohort, we had many challenges, and if I were going at it alone, I doubt I could have kept a level head at many times.  We all had our own interests and challenges throughout the program, but hearing that I was not the only one struggling to learn certain materials, and being able to ask for help on a challenging question always kept me going.
