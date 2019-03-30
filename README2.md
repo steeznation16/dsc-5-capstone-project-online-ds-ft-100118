@@ -24,7 +24,7 @@ While my initial goals for this project were reaching for the stars a bit, they 
 
 While this did not come to fruition as originally imagined, I was still intrigued to have learned about the different areas that were hotspots for [Crime](<img src=http://localhost:8888/view/Module05/capstone/dsc-5-capstone-project-online-ds-ft-100118/Maps/final_crime.html>), Airbnb rentals, and cycle share locations.
 
-<center><img src='Images/final_crime.png' width="200" height="200">
+<center><img src='Images/final_crime.png' width="400" height="600">
 
 
 
@@ -32,31 +32,31 @@ While this did not come to fruition as originally imagined, I was still intrigue
 #### Folium:
 A lot of the visualizations in this project revolved around Folium and plotting points geographically on a map.  While the use of Folium can be slow to render and difficult to work with at times, the results are fantastic in the ability to plot points and see geographically where locations lie relative to each other.  There are also great ways to add different layers in order to toggle between certain data or certain ways of identifying such data on the map.
 
-<center><img src='layer_heatmap_compare.png'>
+<center><img src='Images/layer_heatmap_compare.png' width="400" height="600">
 
 
 ## Sentiment Analysis on Airbnb Reviews:
 One challenge I really looked to try and tackle with this project was the idea of analyzing the text in reviews, and I fortunately was able to find a library build into the Natural Language Tool Kit that allows [Sentiment Analysis](https://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) on the text.  Using this, the Vader Polarity gives a value from negative to positive one from most negative to most positive text.  Each review could then be assessed a polarity value that could be plotted (see below).
 
-<center><img src='polarity_hist.png'>
+<center><img src='Images/polarity_hist.png' width="400" height="600">
 
-<center><img src='polarity_violin.png'>
+<center><img src='Images/polarity_violin.png' width="400" height="600">
         
 As is clearly evident, there is an extreme shift towards the positive with reviews' sentiment.  This obviously led to more exploration about what locations were showing the highest and lowest sentiment, as well as whether the ratings assessed to a location matched with the sentiment of their comments.
 
-<center><img src='rating_hist.png'>
+<center><img src='Images/rating_hist.png' width="400" height="600">
 
 So ratings were high, as was sentiment analysis, so they certainly go hand in hand.  This leads to my machine learning model and how to classify the ratingand quality of a review.
 
-<center><img src='triplot_hist.png'>
+<center><img src='Images/triplot_hist.png' width="400" height="600">
 
 
 ## Machine Learning Model:
 Starting with a very basic model, I realized that there was going to be good results for any test because there were very few features in the model, and the features that were there were using polarity and the score rated by the reviewer in order to determine the target score, thus heavily influencing the model's accuracy.  As shown below, the initial feature importances were extremely biased, and the correlation matrix shows similar results.
 
-<center><img src='heatmap_corr_1.png'>
+<center><img src='Images/heatmap_corr_1.png' width="400" height="600">
 
-<center><img src='feat_imp_1.png'>
+<center><img src='Images/feat_imp_1.png' width="400" height="600">
 
 From there, I decided to go back to the listings page that had information for each individual listing posted for Airbnb, rather than the reviews for each location.  While this drastically reduced the number of data points available, it also expanded the number of features in the testing.  I also took the average of the polarity, review score, and combined score in order to have a good benchmark to compare each location, as well as to have a target score.  By adding a greater number of features, the accuracy dropped in later models, but with improved tuning gradually was able to increase the accuracy of predicting a good or a bad rating, as well as what the important pieces were for each Airbnb rental.
 
