@@ -41,6 +41,10 @@ One challenge I really looked to try and tackle with this project was the idea o
 
 <center><img src='polarity_hist.png'>
 
+<center><img src='polarity_violin.png'>
+    
+As is clearly evident, there is an extreme shift towards the positive with reviews' sentiment.  This obviously led to more exploration about what locations were showing the highest and lowest sentiment, as well as whether the ratings assessed to a location matched with the sentiment of their comments.
+
 ## Machine Learning Model:
 
 
