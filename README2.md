@@ -24,11 +24,14 @@ While this did not come to fruition as originally imagined, I was still intrigue
 
 <center><img src='final_crime.png'>
 
-<center><img src='end-of-tunnel.gif'>
 
 
 ## Visualizations:
 #### Folium:
+A lot of the visualizations in this project revolved around Folium and plotting points geographically on a map.  While the use of Folium can be slow to render and difficult to work with at times, the results are fantastic in the ability to plot points and see geographically where locations lie relative to each other.  There are also great ways to add different layers in order to toggle between certain data or certain ways of identifying such data on the map.
+
+<center><img src/'Map/layer_heat_map.html'>
+    
 
 
 #### 
