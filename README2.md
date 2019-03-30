@@ -24,6 +24,8 @@ While this did not come to fruition as originally imagined, I was still intrigue
 
 <center><img src='final_crime.png'>
 
+<center><img src='end-of-tunnel.gif'>
+
 
 ## Visualizations:
 #### Folium:
