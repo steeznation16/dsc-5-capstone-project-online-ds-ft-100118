@@ -1,10 +1,10 @@
 # Andrew Wester Capstone Project
-## Flatiron School - Online Full Time Data Science, October 2018 Cohort
+### Flatiron School - Online Full Time Data Science, October 2018 Cohort
 #### Instructor: Rafael Carrasco
 
 ## Project: Seattle Washington, Summary
 
-## Question: What Factors Influence Airbnb Reviews
+### Question: What Factors Influence Airbnb Reviews
 ### How do those reviews compare with locations of crime in the city?
 
 ## Goal: Visually Represent Locations of Airbnb Rentals Relative to Review, as well as Crime
